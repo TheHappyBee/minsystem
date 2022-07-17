@@ -1,0 +1,6 @@
+filename = input("please enter the filename of the malicious file:")
+hash = input("please enter the hash of the malicious file:")
+f = open(r"C:\Users\Liu Home Desktop\Desktop\minsystem\antivirus - ENG\src\data\hashes.txt", "a")
+f.write(hash+"\n")
+file = open(r"C:\Users\Liu Home Desktop\Desktop\minsystem\antivirus - ENG\src\data\source.txt", "a")
+file.write(filename+"\n")
